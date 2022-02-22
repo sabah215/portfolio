@@ -5,7 +5,7 @@ This site is a home page for my portfolio. It will show previous projects, schoo
 
 # Links
 email: sabah_ummie@uri.edu
-portfolio link: https://sabah215.github.io/portfolio/
+
 
 # Technology Used
 HTML, CSS, Javascript, JQuery, Bootstrap
