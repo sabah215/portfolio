@@ -1,5 +1,5 @@
 .navigation-bar{
-       background-color: #1f2428;
+       background-color: #5F2C7B;
        height: 50px;
        display: flex;
        justify-content: center;
@@ -8,9 +8,18 @@
        color: #fff;
        
 }
-.hero{
-       background-color: #1f2428;
+#project-link:hover{ 
+       /* background-color: yellow;  */
+       /* Text-Decoration: None ; */
+      text-decoration:underline !important;
+      color: #fff;
+}
+.section-height{
        height: 80vh;
+}
+.hero{
+       background-color: #7B4996;
+       /* height: 80vh; */
        color: #fff;
 }
 
@@ -39,4 +48,16 @@
 }
 .hero-content-subheadline{
        text-align: center;
+}
+.projects{
+       background-color: #E3D2EC;
+       /* height: 80vh; */
+}
+.skills{
+       background-color: #C0A1D2;
+       /* height: 80vh; */
+}
+.contact{
+       background-color: #E3D2EC;
+       /* height: 80vh;   */
 }
