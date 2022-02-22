@@ -8,9 +8,7 @@
        color: #fff;
        
 }
-#project-link:hover{ 
-       /* background-color: yellow;  */
-       /* Text-Decoration: None ; */
+#nav-item-1:hover, #nav-item-2:hover, #nav-item-3:hover, #nav-item-4:hover, #nav-item-5:hover{ 
       text-decoration:underline !important;
       color: #fff;
 }
