@@ -1,0 +1,62 @@
+.navigation-bar{
+       background-color: #5F2C7B;
+       height: 50px;
+       display: flex;
+       justify-content: center;
+}
+.navigation-bar .nav-link {
+       color: #fff;
+       
+}
+#nav-item-1:hover, #nav-item-2:hover, #nav-item-3:hover, #nav-item-4:hover, #nav-item-5:hover{ 
+      text-decoration:underline !important;
+      color: #fff;
+}
+.section-height{
+       height: 80vh;
+}
+.hero{
+       background-color: #7B4996;
+       /* height: 80vh; */
+       color: #fff;
+}
+
+#profile-pic{
+       height: 200px;
+       width: 200px;
+       object-fit: cover;
+}
+.hero-content {
+       margin: 0 auto;
+       width: 800px;
+       justify-content: center;
+       padding-top: 3em;
+}
+.hero-content-intro {
+       display: flex;
+       color: #fff;
+       align-items: center;
+       gap: 1em;
+}
+.intro-name {
+       font-size: 72px;
+       padding-top: 0px;
+}
+.description{
+       font-size: 25px;
+}
+.hero-content-subheadline{
+       /* text-align: center; */
+}
+.projects{
+       background-color: #E3D2EC;
+       /* height: 80vh; */
+}
+.skills{
+       background-color: #C0A1D2;
+       /* height: 80vh; */
+}
+.contact{
+       background-color: #E3D2EC;
+       /* height: 80vh;   */
+}
