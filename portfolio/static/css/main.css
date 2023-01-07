@@ -1,3 +1,9 @@
+body
+{
+    font-size: 3.2vw;
+}
+
+
 .navigation-bar{
        background-color: #5F2C7B;
        height: 50px;
@@ -13,50 +19,82 @@
       color: #fff;
 }
 .section-height{
-       height: 80vh;
+       /* height: 50vh; */
 }
 .hero{
        background-color: #7B4996;
-       /* height: 80vh; */
-       color: #fff;
+       height: 80vh;
+       color: #fff; 
 }
 
 #profile-pic{
        height: 200px;
        width: 200px;
        object-fit: cover;
+       
 }
 .hero-content {
        margin: 0 auto;
        width: 800px;
        justify-content: center;
        padding-top: 3em;
+       /*  */
+
+}
+.center{
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
 }
 .hero-content-intro {
        display: flex;
        color: #fff;
        align-items: center;
        gap: 1em;
+       width: 40vw;
+       margin-left: 20%;
+       /* display: block;
+       margin-left: auto;
+       margin-right: auto; */
+      
 }
 .intro-name {
        font-size: 72px;
        padding-top: 0px;
+
 }
 .description{
        font-size: 25px;
 }
 .hero-content-subheadline{
-       /* text-align: center; */
-}
+       text-align: left;
+       width: 50vw;
+       margin-top: 5%;
+       /* background-color: aqua; */
+       /* position: absolute; */
+
+ }
+ .slogan{
+       font-size: 1.1vw;
+       text-align: justify;
+       /* position: relative; */
+      
+ }
 .projects{
        background-color: #E3D2EC;
-       /* height: 80vh; */
+       height: 80vh;
+} 
+.project{
+       height: 5%;
 }
 .skills{
        background-color: #C0A1D2;
-       /* height: 80vh; */
+       height: 80vh;
 }
 .contact{
        background-color: #E3D2EC;
-       /* height: 80vh;   */
-}
+       height: 80vh;  
+}  
+
+
+
