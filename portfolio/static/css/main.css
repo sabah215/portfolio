@@ -3,7 +3,10 @@ body
     font-size: 3.2vw;
 }
 
-
+img{
+       height: auto;
+       max-width: 100%;
+}
 .navigation-bar{
        background-color: #5F2C7B;
        height: 50px;
@@ -82,7 +85,7 @@ body
  }
 .projects{
        background-color: #E3D2EC;
-       height: 80vh;
+       height: 100vh;
 } 
 .project{
        height: 5%;
@@ -95,6 +98,12 @@ body
        background-color: #E3D2EC;
        height: 80vh;  
 }  
+.card-description{
+       background-color: #C0A1D2;
+       margin-left: 0px !important;
+       position: relative;
+       color: #fff;
+}
 
 
 
