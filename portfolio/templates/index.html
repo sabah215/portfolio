@@ -13,27 +13,48 @@
        <section class="navigation-bar">
                    <a class="nav-link" id="nav-item-1"href="">About</a>
                    <a class="nav-link" id="nav-item-2" href="">Projects</a>
-                   <a class="nav-link" id="nav-item-3" href="">Skills</a>
-                   <a class="nav-link" id="nav-item-4" href="">Courses</a>
-                   <a class="nav-link" id="nav-item-5"href="">Contact</a>
+                   <a class="nav-link" id="nav-item-3" href="">Education & Skills</a>
+                   <a class="nav-link" id="nav-item-3" href="">Achievements</a>
+                   <!-- <a class="nav-link" id="nav-item-4" href="">Courses</a> -->
+                   <a class="nav-link" id="nav-item-4"href="">Contact</a>
        </section>
-       <section class="hero section-height">
+       <section class="hero section-height" >
               <div class="hero-content d-flex flex-column">
                      <div class="hero-content-intro d-flex flex-row">
                             <img class= "center" id="profile-pic" src="{{ url_for('static', filename= 'images/sabah.jpg') }}" alt="sabah.jpg">
                             <h1 class="intro-name center" style="font-size: 4vw;"> Hi There! I am Sabah Ummie</h1>
                      </div>
-                     <div class="hero-content-subheadline">
-                            <!-- <h3 class="description">Software Developer</h3> -->
-                            <p class="slogan">I am a Software Developer with 2 years of experience building web and mobile applications. I have a passion for creating elegant and efficient solutions to complex problems, and I am always looking for new challenges and opportunities to learn and grow. </p>
-                            <p class="slogan">Throughout my career, I have had the opportunity to work on a wide range of projects, from small startups to large enterprise systems.I have strong skills in languages such as JavaScript, HTML, and CSS, as well as frameworks such as React and Node.js.</p>
-                            <p class="slogan">I am excited to share my work with you and hope you enjoy exploring my portfolio. Please feel free to contact me if you have any questions or want to discuss potential opportunities.</p>
+                     <div class="socials">
+                           <span>
+                                   <a href="https://www.linkedin.com/in/sabah-ummie/" target="_blank">
+                                          <img class="socials-icon" src="{{url_for('static', filename='images/linkedin_round.png')}}" alt="linkedIn"/>
+                                   </a>
+                            </span>
+                           <span>
+                                   <a href="https://github.com/sabah215" target="_blank">
+                                          <img class="socials-icon" src="{{url_for('static', filename='images/github_col.png')}}" alt="github"/>
+                                   </a>
+                            </span>
+                            <span>
+                                   <a href="https://www.facebook.com/sabah.ummie" target="_blank">
+                                          <img class="socials-icon" src="{{url_for('static', filename='images/facebook_round.png')}}" alt="facebook"/>
+                                   </a>
+                            </span>
+                            <span>
+                                   <a href="https://twitter.com/SabahUmmie" target="_blank">
+                                          <img class="socials-icon" src="{{url_for('static', filename='images/twitter.png')}}" alt="github"/>
+                                   </a>
+                            </span>
+                            <span>
+                                   <a href="https://sabahummie.hashnode.dev" target="_blank">
+                                          <img class="socials-icon" src="{{url_for('static', filename='images/hashnode.png')}}" alt="hashnode"/>
+                                   </a>
+                            </span>
                           
                      </div>
-               
               </div>      
        </section>
-       <section class="projects section-height">
+       <section class="projects section-height" >
               <h1>My Projects</h1>
               <div class="container">
                      <div class="row" style="justify-content: space-around;">
