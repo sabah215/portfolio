@@ -32,12 +32,30 @@ section {
 }
 
 .socials-icon{
-       width: 65px;
+       /* position: relative; */
+       width: 10vh;
+       /* height: 70px; */
+     
+}
+.socials {
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       min-height: 10vh;
+       align-items: center;
+     
+}
+
+.socials > span > a{
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
 }
 
 .hero{
        background-color: #7B4996;
-       color: #fff;     
+       color: #fff;    
+       min-height: 100vh; 
       
 }
 
@@ -48,10 +66,18 @@ section {
        
 }
 .hero-content {
-       margin: 0 auto;
+       display: inline-block;
+       /* margin-top:  auto;
+       margin-bottom: auto; */
+       margin-left: auto;
+       margin-right: auto;
        width: 800px;
        justify-content: center;
-       padding-top: 3em;
+       padding-top: 30vh;
+       display: flex;
+       /* flex-direction: column; */
+       align-items: center;
+       vertical-align: middle;
        /*  */
 
 }
