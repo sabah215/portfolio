@@ -66,20 +66,45 @@ section {
        
 }
 .hero-content {
-       display: inline-block;
+       display: block;
        /* margin-top:  auto;
        margin-bottom: auto; */
        margin-left: auto;
        margin-right: auto;
        width: 800px;
        justify-content: center;
-       padding-top: 30vh;
+       padding-top: 25vh;
        display: flex;
        /* flex-direction: column; */
        align-items: center;
        vertical-align: middle;
        /*  */
 
+}
+.download {
+       /* position: relative; */
+       display: inline;
+       margin-left:auto;
+       margin-right: auto;
+}
+.btn-download{
+    
+       font-family: 'Roboto';
+       font-style: normal;
+       font-weight: 2.5rem;
+       font-size: 1.5rem;
+       /* line-height: 30px; */
+
+       color: #5F2C7B;
+       /* position: absolute; */
+       width: 285px;
+       height: 62px;
+      
+       /* top: 80vh; */
+       
+       background: #C0A1D2;
+       box-shadow: 6px 10px 4px rgba(0, 0, 0, 0.25);
+       border-radius: 9px;
 }
 .center{
        display: block;
