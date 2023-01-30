@@ -41,7 +41,7 @@ section {
        justify-content: center;
        min-height: 10vh;
        align-items: center;
-     
+     /* Here i have addeda comment*/
 }
 
 .socials > span > a{
