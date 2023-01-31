@@ -74,7 +74,7 @@ section {
        display: flex;
        align-items: center;
        vertical-align: middle;
-       /*  */
+      
 
 }
 .download {
@@ -89,10 +89,8 @@ section {
        font-style: normal;
        font-weight: 2.5rem;
        font-size: 1.5rem;
-       /* line-height: 30px; */
-
+     
        color: #5F2C7B;
-       /* position: absolute; */
        width: 285px;
        height: 62px;
       
