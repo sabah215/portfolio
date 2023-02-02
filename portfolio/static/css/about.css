@@ -1,0 +1,50 @@
+.container{
+       overflow: hidden;
+}
+
+.about-head {
+       position: absolute;
+       width: 571px;
+       height: 78px;
+       left: 15%;
+       top: 120%;
+
+       font-family: 'Roboto';
+       font-style: normal;
+       font-weight: 700;
+       font-size: 48px;
+       line-height: 56px;
+
+       color: #5F2C7B;
+}
+
+.about{
+       background-color: #E3D2EC;
+       height: 100vh;
+} 
+
+.para{
+       position: absolute;
+       width: 70%;
+       height: 128px;
+       left: 15%;
+
+       font-family: 'Roboto';
+       font-style: normal;
+       font-weight: 1.5rem;
+       font-size: 1.5rem;
+       line-height: 4vh;
+       color: #5F2C7B;
+}
+
+.para-1-top{
+      
+       top: 130vh;
+}
+.para-2-top{
+       padding-top: 0.5%;
+       top: 145vh;
+}
+.para-3-top{
+       top: 160vh;
+}

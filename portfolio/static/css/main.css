@@ -9,27 +9,15 @@ img{
        height: 50%;
        max-width: 50%;
 }
+
+
 section {
        overflow: hidden;
 }
 
-.container{
+/* .container{
        overflow: hidden;
-}
-.navigation-bar{
-       background-color: #5F2C7B;
-       height: 50px;
-       display: flex;
-       justify-content: center;
-}
-.navigation-bar .nav-link {
-       color: #fff;
-       
-}
-#nav-item-1:hover, #nav-item-2:hover, #nav-item-3:hover, #nav-item-4:hover, #nav-item-5:hover{ 
-      text-decoration:underline !important;
-      color: #fff;
-}
+} */
 
 .socials-icon{
        width: 10vh;
@@ -143,22 +131,19 @@ section {
        /* position: relative; */
       
  }
-.projects{
-       background-color: #E3D2EC;
-       height: 100vh;
-} 
+
 .project{
        height: 5%;
 }
-.skills{
+/* .skills{
        background-color: #C0A1D2;
        height: 80vh;
-}
+} */
 .contact{
        background-color: #E3D2EC;
        height: 80vh;  
 }  
-.card-description{
+/* .card-description{
        background-color: #C0A1D2;
        margin-left: 0px !important;
        position: relative;
@@ -176,7 +161,7 @@ section {
        display:block; 
        margin-left:auto; 
        margin-right:auto;
-}
+} */
 
 /* .btn {
        background-color: #EFCEE4; 

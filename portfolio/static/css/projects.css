@@ -1,0 +1,72 @@
+.skills{
+       background-color: #C0A1D2;
+       height: 80vh;
+}
+
+.card-description{
+       background-color: #C0A1D2;
+       margin-left: 0px !important;
+       position: relative;
+       color: #fff;
+}
+
+.card {
+       width : 18rem  !important;
+       height: 237px;
+       position: relative;
+   
+}
+
+.card-learn-more{
+       background-color: #EFCEE4; 
+       border:#EFCEE4; 
+       color:#000; 
+       display:block; 
+       margin-left:auto; 
+       margin-right:auto;
+}
+
+img > .project-card {
+       position: absolute;
+       width: 237px;
+       height: 237px;
+       left: 108px;
+       top: 120%;
+}
+p.project-title {
+       position: absolute;
+       /* width: 258px; */
+       /* height: 94px; */
+       left: 0%;
+       top: 30%;
+
+       font-family: 'Roboto';
+       font-style:normal;
+       font-weight: 700;
+       font-size: 1.5rem;
+       line-height: 4vh;
+       text-align: center;
+       color: #5F2C7B;
+       vertical-align: middle;
+}
+
+.project-head {
+       position: absolute;
+       width: 571px;
+       height: 78px;
+       left: 15%;
+       top: 0%;
+
+       font-family: 'Roboto';
+       font-style: normal;
+       font-weight: 700;
+       font-size: 48px;
+       line-height: 56px;
+
+       color: #5F2C7B;
+}
+.projects{
+       position: relative;
+       background-color: #C0A1D2;
+       height: 100vh;
+} 

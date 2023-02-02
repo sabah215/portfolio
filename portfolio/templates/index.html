@@ -5,19 +5,25 @@
        <meta http-equiv="X-UA-Compatible" content="IE=edge">
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <link rel="stylesheet"  media="screen" href="{{ url_for('static', filename= 'css/main.css') }}">
+       <link rel="stylesheet"  media="screen" href="{{ url_for('static', filename= 'css/navbar.css') }}">
+       <link rel="stylesheet"  media="screen" href="{{ url_for('static', filename= 'css/about.css') }}">
+       <link rel="stylesheet"  media="screen" href="{{ url_for('static', filename= 'css/projects.css') }}">
        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
        <script src="main.js"></script> 
        <title>Sabah Ummie</title>
 </head>
 <body>
-       <section class="navigation-bar">
-                   <a class="nav-link" id="nav-item-1"href="">About</a>
-                   <a class="nav-link" id="nav-item-2" href="">Projects</a>
-                   <a class="nav-link" id="nav-item-3" href="">Education & Skills</a>
-                   <a class="nav-link" id="nav-item-3" href="">Achievements</a>
-                   <!-- <a class="nav-link" id="nav-item-4" href="">Courses</a> -->
-                   <a class="nav-link" id="nav-item-4"href="">Contact</a>
-       </section>
+       <nav class="navigation-bar">
+              <a class="nav-link" id="nav-item-1"href="">About</a>
+              <a class="nav-link" id="nav-item-2" href="">Projects</a>
+              <a class="nav-link" id="nav-item-3" href="">Education & Skills</a>
+              <a class="nav-link" id="nav-item-3" href="">Achievements</a>
+              <!-- <a class="nav-link" id="nav-item-4" href="">Courses</a> -->
+              <a class="nav-link" id="nav-item-4"href="">Contact</a>
+       </nav>
        <section class="hero section-height" >
               <div class="hero-content d-flex flex-column">
                      <div class="hero-content-intro d-flex flex-row">
@@ -57,76 +63,56 @@
                      </div>
               </div>      
        </section>
-       <section class="projects section-height" >
-              <h1>My Projects</h1>
+       <section class="about section-height" >
+              <h1 class="about-head">About Me</h1>
               <div class="container">
-                     <div class="row" style="justify-content: space-around;">
+                     <p class="para para-1-top">I am a Software Developer with 2 years of experience building web and mobile applications. 
+                            I have a passion for creating elegant and efficient solutions to complex problems, and I am always 
+                            looking for new challenges and opportunities to learn and grow.
+                     </p>
 
-                            <div class="card" >
-                                   <img src="{{url_for('static',filename='images/riseabove-logo.jpg')}}" class="card-img-top" alt="rise-above-logo" >
-                                   <div class="card-body card-description">
-                                     <h5 class="card-title">Web-based Education portal for People with Epilepsy</h5>
-                                     <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                                     <a href="#" class="btn btn-primary" style="background-color: #EFCEE4; border:#EFCEE4; color:#000; display:block; margin-left:auto; margin-right:auto;">Learn More</a>
-                                   </div>
-                            </div>
+                     <p class="para para-2-top">Throughout my career, I have had the opportunity to work on a wide range of projects, 
+                            from small startups to large enterprise systems.I have strong skills in languages such as JavaScript, HTML, and CSS, 
+                            as well as frameworks such as React and Node.js.
+                     </p>
+                     <p class="para para-3-top">I am excited to share my work with you and hope you enjoy exploring my portfolio. Please feel 
+                            free to contact me if you have any questions or want to discuss potential opportunities.
+                     </p>
 
-                            <div class="card" >
-                                   <img src="{{url_for('static',filename='images/riseabove-logo.jpg')}}" class="card-img-top" alt="rise-above-logo">
-                                   <div class="card-body card-description">
-                                     <h5 class="card-title">Web-based Education portal for People with Epilepsy</h5>
-                                     <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                                     <a href="#" class="btn btn-primary" style="background-color: #EFCEE4; border:#EFCEE4; color:#000; display:block; margin-left:auto; margin-right:auto;">Learn More</a>
-                                   </div>
-                            </div>
-                            <div class="card" >
-                                   <img src="{{url_for('static',filename='images/riseabove-logo.jpg')}}" class="card-img-top" alt="rise-above-logo" height="237">
-                                   <div class="card-body card-description">
-                                     <h5 class="card-title">Web-based Education portal for People with Epilepsy</h5>
-                                     <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                                     <a href="#" class="btn btn-primary" style="background-color: #EFCEE4; border:#EFCEE4; color:#000; display:block; margin-left:auto; margin-right:auto;">Learn More</a>
-                                   </div>
-                            </div>
-                           
-                           
-                     </div>
 
-                     <div class="row" style="margin-top: 5%;justify-content: space-around;">
-                           
-                            <div class="card" style="width: 18rem;">
-                                   <img src="{{url_for('static',filename='images/riseabove-logo.jpg')}}" class="card-img-top" alt="rise-above-logo" height="237">
-                                   <div class="card-body card-description">
-                                     <h5 class="card-title">Web-based Education portal for People with Epilepsy</h5>
-                                     <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                                     <a href="#" class="btn btn-primary" style="background-color: #EFCEE4; border:#EFCEE4; color:#000; display:block; margin-left:auto; margin-right:auto;">Learn More</a>
-                                   </div>
-                            </div>
 
-                            <div class="card" style="width: 18rem;">
-                                   <img src="{{url_for('static',filename='images/riseabove-logo.jpg')}}" class="card-img-top" alt="rise-above-logo" height="237">
-                                   <div class="card-body card-description">
-                                     <h5 class="card-title">Web-based Education portal for People with Epilepsy</h5>
-                                     <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                                     <a href="#" class="btn btn-primary" style="background-color: #EFCEE4; border:#EFCEE4; color:#000; display:block; margin-left:auto; margin-right:auto;">Learn More</a>
-                                   </div>
-                            </div>
-                            <div class="card" style="width: 18rem;">
-                                   <img src="{{url_for('static',filename='images/riseabove-logo.jpg')}}" class="card-img-top" alt="rise-above-logo" height="237">
-                                   <div class="card-body card-description">
-                                     <h5 class="card-title">Web-based Education portal for People with Epilepsy</h5>
-                                     <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                                     <a href="#" class="btn btn-primary" style="background-color: #EFCEE4; border:#EFCEE4; color:#000; display:block; margin-left:auto; margin-right:auto;">Learn More</a>
-                                   </div>
-                            </div>
-                           
-                     </div>
+                    
               </div>
-              
-             
-             
        </section>
-       <section class="skills section-height">
-              <h1>Skills</h1>
+       <section class="projects section-height">
+              <h1 class="project-head">Projects</h1>
+              <h3 class="experience">Experience</h3>
+              <div class="row" style="justify-content: space-around;"> 
+
+                     <div class="card">
+                            
+                            <p class="project-title">Web-base Education Portal for People with Epilepsy</p>
+                     </div>
+
+                     <div class="card" >
+                            <p class="project-title">Data Analysis of PTSD Patient Heart Rate Data</p>
+                     </div>
+                     <div class="card" >
+                            <p class="project-title">BlogPro: A Blogging Website</p>
+                          
+                     </div>
+                     <div class="card" >
+                            <p class="project-title">Sales Campaign Application</p>
+                          
+                     </div>
+
+                     <div class="card" >
+                            <p class="project-title">Service Monitoring Application</p>
+                          
+                     </div>
+                    
+                    
+              </div>
               
        </section>
        <section class="contact section-height">

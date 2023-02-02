@@ -1,0 +1,15 @@
+.navigation-bar{
+       background-color: #5F2C7B;
+       height: 50px;
+       display: flex;
+       justify-content: center;
+}
+
+.navigation-bar > .nav-link {
+       color: #fff;
+       
+}
+#nav-item-1:hover, #nav-item-2:hover, #nav-item-3:hover, #nav-item-4:hover, #nav-item-5:hover{ 
+       text-decoration:underline !important;
+       color: #fff;
+ }
