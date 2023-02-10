@@ -55,7 +55,7 @@ p.project-title {
        width: 571px;
        height: 78px;
        left: 15%;
-       top: 0%;
+       top: 5%;
 
        font-family: 'Roboto';
        font-style: normal;
@@ -70,3 +70,19 @@ p.project-title {
        background-color: #C0A1D2;
        height: 100vh;
 } 
+
+.experience{
+       position: absolute;
+       width: 430px;
+       height: 80px;
+       left: 15%;
+       top: 13%;
+
+       font-family: 'Roboto';
+       font-style: normal;
+       font-weight: 700;
+       font-size: 36px;
+       line-height: 42px;
+
+       color: #FDF0F9;
+}

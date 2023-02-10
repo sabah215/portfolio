@@ -1,0 +1,22 @@
+
+.education{
+       background-color: #E3D2EC;
+       height: 80vh;  
+       position: relative;
+}  
+
+.education-head{
+       position: absolute;
+       width: 430px;
+       height: 80px;
+       left: 15%;
+       top: 13%;
+
+       font-family: 'Roboto';
+       font-style: normal;
+       font-weight: 700;
+       font-size: 48px;
+       line-height: 58px;
+
+       color: #5F2C7B;
+}
