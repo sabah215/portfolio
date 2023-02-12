@@ -8,4 +8,4 @@ email: sabah_ummie@uri.edu
 
 
 # Technology Used
-HTML, CSS, Javascript, JQuery, Bootstrap
+HTML, CSS, Javascript, JQuery, Bootstrap, Python, Flask

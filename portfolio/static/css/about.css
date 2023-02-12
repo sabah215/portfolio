@@ -38,13 +38,15 @@
 }
 
 .para-1-top{
-      
+       position: absolute;
        top: 130vh;
 }
 .para-2-top{
-       padding-top: 0.5%;
-       top: 145vh;
+       /* padding-top: 0.5%; */
+       position: absolute;
+       top: 150vh;
 }
 .para-3-top{
-       top: 160vh;
+       position: absolute;
+       top: 170vh;
 }

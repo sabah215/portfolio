@@ -86,3 +86,39 @@ p.project-title {
 
        color: #FDF0F9;
 }
+
+.experience-projects{
+       justify-content: space-around; 
+       margin-top: 18%;  
+       position: absolute;
+       width: 80%;
+       left: 15%;    
+}
+
+
+.standalone-head{
+       position: absolute;
+       top: 40%;
+}
+
+.standalone{
+       position: absolute;
+       top: 50%;
+       left: 15%;
+       font-family: 'Roboto';
+       font-style: normal;
+       font-weight: 700;
+       font-size: 36px;
+       line-height: 42px;
+       color: #FDF0F9;
+       
+}
+.standalone-project{
+       position: absolute;
+       justify-content: space-around; 
+       margin-top: 18%;
+       width: 80%;
+       top: 60%;
+       left: 15%;
+}
+
